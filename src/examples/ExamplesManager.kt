@@ -1,14 +1,13 @@
 package examples
 
 object ExamplesManager {
-    fun executeExample(exampleName: String) {
+    fun executeExample(exampleName: ExampleType) {
         when (exampleName) {
-            "calculations strategy" -> CalculationsExample
-            "animals factory" -> AnimalsFactoryExample
-            "food order builder" -> FoodOrderBuilderExample
-            "array operations" -> ArrayOperationsExample
-            "hash comparison" -> HashCodeComparison
-            else -> throw Exception("No such example!")
+            ExampleType.CALCULATIONS_STRATEGY -> CalculationsExample
+            ExampleType.ANIMALS_FACTORY -> AnimalsFactoryExample
+            ExampleType.FOOD_ORDER_BUILDER -> FoodOrderBuilderExample
+            ExampleType.ARRAY_OPERATIONS -> ArrayOperationsExample
+            ExampleType.HASH_COMPARISON -> HashCodeComparison
         }.executeExample()
     }
 }

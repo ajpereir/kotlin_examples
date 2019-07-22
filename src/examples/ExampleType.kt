@@ -1,0 +1,9 @@
+package examples
+
+enum class ExampleType {
+    CALCULATIONS_STRATEGY,
+    ANIMALS_FACTORY,
+    FOOD_ORDER_BUILDER,
+    ARRAY_OPERATIONS,
+    HASH_COMPARISON
+}
