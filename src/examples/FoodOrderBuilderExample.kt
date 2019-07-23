@@ -3,7 +3,7 @@ package examples
 import food.FoodOrder
 
 object FoodOrderBuilderExample: Example {
-    override fun executeExample() {
+    override fun invoke() {
         val foodOrder: FoodOrder = FoodOrder.Builder()
                 .bread("random")
                 .condiments("cilantro")

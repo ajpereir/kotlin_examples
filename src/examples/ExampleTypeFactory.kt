@@ -2,28 +2,28 @@ package examples
 
 enum class ExampleTypeFactory : Example {
     CALCULATIONS_STRATEGY {
-        override fun executeExample() {
-            CalculationsExample.executeExample()
+        override fun invoke() {
+            CalculationsExample()
         }
     },
     ANIMALS_FACTORY {
-        override fun executeExample() {
-            AnimalsFactoryExample.executeExample()
+        override fun invoke() {
+            AnimalsFactoryExample()
         }
     },
     FOOD_ORDER_BUILDER {
-        override fun executeExample() {
-            FoodOrderBuilderExample.executeExample()
+        override fun invoke() {
+            FoodOrderBuilderExample()
         }
     },
     ARRAY_OPERATIONS {
-        override fun executeExample() {
-            ArrayOperationsExample.executeExample()
+        override fun invoke() {
+            ArrayOperationsExample()
         }
     },
     HASH_COMPARISON {
-        override fun executeExample() {
-            HashCodeComparison.executeExample()
+        override fun invoke() {
+            HashCodeComparison()
         }
     };
 }

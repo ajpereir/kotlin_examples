@@ -1,7 +1,7 @@
 package examples
 
 object ArrayOperationsExample : Example {
-    override fun executeExample() {
+    override fun invoke() {
         val range = 1..10
         var array: Array<Int> = arrayOf()
 

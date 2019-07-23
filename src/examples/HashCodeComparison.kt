@@ -3,7 +3,7 @@ package examples
 import food.FoodOrder
 
 object HashCodeComparison: Example {
-    override fun executeExample() {
+    override fun invoke() {
         val foodOrder1: FoodOrder = FoodOrder.Builder()
                 .bread("bread")
                 .condiments("condiments")

@@ -5,7 +5,7 @@ import calculations.DivideByTwo
 import calculations.MultiplyByTwo
 
 object CalculationsExample : Example {
-    override fun executeExample() {
+    override fun invoke() {
         val initialValue: Float = 100.toFloat()
         val dividedValue = executeCalculation(initialValue, DivideByTwo)
         val multipliedValue = executeCalculation(initialValue, MultiplyByTwo)

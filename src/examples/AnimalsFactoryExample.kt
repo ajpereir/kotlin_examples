@@ -3,7 +3,7 @@ package examples
 import animal.Animal
 
 object AnimalsFactoryExample: Example {
-    override fun executeExample() {
+    override fun invoke() {
         val animals: Array<String> = arrayOf("Dog", "Sheep")
         animals.forEach { animalType ->
             val animal: Animal = Animal.getAnimal(animalType)

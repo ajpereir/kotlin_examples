@@ -1,5 +1,5 @@
 package examples
 
 interface Example {
-    fun executeExample()
+    operator fun invoke()
 }
