@@ -1,11 +1,38 @@
 
 ;
 src/main.kt,d\b\db77ba1bb1910d5d29507ace26d321bbb5641dae
-@
-src/FoodOrder.kt,0\9\09de1be506889d7b8abc59a6b6b88d2033b47ae8
 A
 src/animal/Dog.kt,e\9\e9bb88d41fc7d721727d57ec143c746bbedb7e8f
 C
 src/animal/Sheep.kt,b\5\b59e790b94440922b5eee29a9e50f36e86f1f754
 D
 src/animal/Animal.kt,6\a\6a1b4f550b29632f1ba551a92db2d22106c95ab6
+V
+&src/examples/ArrayOperationsExample.kt,6\1\61f9f5f1e3e045d590a90bae6cc7ba8a4cac93aa
+W
+'src/examples/FoodOrderBuilderExample.kt,2\8\2822ab507f3bec59202a615ea062f46cc079344f
+E
+src/food/FoodOrder.kt,4\1\419790d4fd3c21fd3d26d272526a047f3ec626cd
+R
+"src/examples/HashCodeComparison.kt,9\0\90321c9e5ca0221abd662f6b31602cae810dc734
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+O
+src/calculations/Calculation.kt,5\9\59c610a865b327bde65f1f05f7cc85ef3167f42a
+U
+%src/examples/AnimalsFactoryExample.kt,d\6\d682debf805d22b3686c69596375385c645437fb
+Q
+!src/calculations/MultiplyByTwo.kt,9\9\99ae05a9dc02947421ae462929a2b320621116ed
+O
+src/calculations/DivideByTwo.kt,1\3\13136c2fb222998f3560d17496c60be38a1508d7
+K
+src/examples/ExampleType.kt,4\7\471ac348aea12a7b0e58f60977002e2aedc1813f
+G
+src/examples/Example.kt,a\2\a2e3610630399f88139f8dc13fd645c9c563152c
+S
+#src/examples/CalculationsExample.kt,1\5\15a6ca54137b07fb9231927c1aaa95435c516038
+O
+src/examples/ExamplesManager.kt,4\1\416914316f7fba49989ed61961e94157f5f7a9af
+R
+"src/examples/ExampleTypeFactory.kt,6\2\6211645ba0a7bba82918358c3971cbd6b5fbcec1

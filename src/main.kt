@@ -1,6 +1,6 @@
-import examples.ExampleType
-import examples.ExamplesManager
+import examples.ExampleTypeFactory
 
 fun main(args: Array<String>) {
-    ExamplesManager.executeExample(ExampleType.CALCULATIONS_STRATEGY)
+//    ExamplesManager.executeExample(ExampleType.CALCULATIONS_STRATEGY)
+    ExampleTypeFactory.CALCULATIONS_STRATEGY.executeExample()
 }
