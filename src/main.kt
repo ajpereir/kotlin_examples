@@ -15,6 +15,6 @@ fun main(args: Array<String>) {
     ExamplesManager.executeExample { CalculationsExample() }
     println(divider)
     println(divider)
-    ExamplesManager.executeExample(CalculationsExample)
+    ExamplesManager.executeExample2(CalculationsExample)
     println(divider)
 }

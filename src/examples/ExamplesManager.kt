@@ -13,5 +13,5 @@ object ExamplesManager {
 
     inline fun <Example> executeExample(example: () -> Example) { example() }
 
-    fun executeExample(example: Example) { example() }
+    fun <T: Example> executeExample2(example: T) { example() }
 }
